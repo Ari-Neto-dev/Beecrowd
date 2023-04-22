@@ -130,7 +130,7 @@ console.log('TOTAL = R$ ' + salarioMaisComissoes);
 
 */
 
-
+/*
 //1010
 
 let valores = input.split('\n')
@@ -143,3 +143,15 @@ let valorProduto2 = produto2[1] * produto2[2];
 let total= (valorProduto1 + valorProduto2).toFixed(2);
 
 console.log('VALOR A PAGAR: R$ ' + total);
+*/
+
+
+//1011
+let raio =parseFloat(input);
+let R3 = Math.pow(raio, 3);
+let pi = 3.14159
+let volume =((4/3) * pi * R3).toFixed(3)
+
+
+console.log('VOLUME = ' + volume);
+
