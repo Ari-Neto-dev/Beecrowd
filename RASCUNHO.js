@@ -145,7 +145,7 @@ let total= (valorProduto1 + valorProduto2).toFixed(2);
 console.log('VALOR A PAGAR: R$ ' + total);
 */
 
-
+/*
 //1011
 let raio =parseFloat(input);
 let R3 = Math.pow(raio, 3);
@@ -154,4 +154,60 @@ let volume =((4/3) * pi * R3).toFixed(3)
 
 
 console.log('VOLUME = ' + volume);
+
+*/
+
+/*
+//1012
+
+let numbers = input.split(" ");
+let A_base = (parseFloat(numbers.shift()));
+let B_base = (parseFloat(numbers.shift()));
+let C_altura = (parseFloat(numbers.shift()))
+let pi= 3.14159;
+
+
+let triangulo = (A_base * C_altura) / 2.0;
+let circulo = pi * Math.pow(C_altura, 2.0);
+let trapezio = ((parseFloat(A_base) +parseFloat(B_base)) * C_altura)/2.0;
+let quadrado = Math.pow(B_base, 2.0);
+let retangulo = A_base * B_base;
+
+
+ console.log('TRIANGULO: '+triangulo.toFixed(3));
+ console.log('CIRCULO: '+circulo.toFixed(3));
+ console.log('TRAPEZIO: '+trapezio.toFixed(3));
+ console.log('QUADRADO: '+quadrado.toFixed(3));
+ console.log('RETANGULO: '+retangulo.toFixed(3));
+*/
+
+
+/*
+let valores = input.split("\n");
+let [x1, y1] = valores[0].split(" ");
+let [x2, y2] = valores[1].split(" ");
+
+let distancia = (Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2))).toFixed(4);
+
+
+console.log(distancia);
+
+*/
+
+let valor = parseInt(input);
+
+console.log(valor);
+
+notas = parseInt(valor/100);
+valor = valor % 100;
+console.log(valor)
+
+
+notas = parseInt(valor/50);
+valor = valor % 50;
+console.log(valor);
+
+
+
+
 
