@@ -210,11 +210,38 @@ valor = valor % 50;
 console.log(valor);
 
 */
+
+/*
+//1019
 let segundos = parseInt(input);
-let horas = parseInt(segundos/3600);
+
+let horas =parseInt(segundos/3600);
 segundos = segundos % 3600;
-let minutos =parseInt(segundos/60);
+
+let minutos = parseInt(segundos/60);
 segundos = segundos % 60;
 
-
 console.log(`${horas}:${minutos}:${segundos}`);
+
+console.log(horas);
+*/
+
+
+//1020
+
+let idadeEmDias =parseInt(input);
+let idadeEmAnos =parseInt(input/365);
+idadeEmDias = idadeEmDias % 365;
+
+idadeEmMeses = parseInt(idadeEmDias/30);
+idadeEmDias = idadeEmDias % 30;
+
+let idadeDias = idadeEmDias;
+
+console.log(idadeEmAnos+ ' ano(s)');
+console.log(idadeEmMeses+' mes(es)');
+console.log(idadeDias+ ' dia(s)');
+
+
+
+
