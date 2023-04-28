@@ -226,7 +226,7 @@ console.log(`${horas}:${minutos}:${segundos}`);
 console.log(horas);
 */
 
-
+/*
 //1020
 
 let idadeEmDias =parseInt(input);
@@ -241,6 +241,12 @@ let idadeDias = idadeEmDias;
 console.log(idadeEmAnos+ ' ano(s)');
 console.log(idadeEmMeses+' mes(es)');
 console.log(idadeDias+ ' dia(s)');
+
+*/
+
+
+
+
 
 
 
