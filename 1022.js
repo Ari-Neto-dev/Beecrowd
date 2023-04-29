@@ -1,0 +1,1 @@
+var input = require("fs").readFileSync("arquivoteste", "utf8");
