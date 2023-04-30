@@ -238,7 +238,9 @@ console.log(idadeDias+ ' dia(s)');
 
 */
 
-// 1021
+/*
+// 1021 não passou no teste do beecrowd
+
 
 let coinsAndBills = parseFloat(input);
 let oneHundred = parseInt(input / 100);
@@ -291,3 +293,23 @@ console.log(twentyFiveCents + " moeda(s) de R$ 0.25");
 console.log(tenCentsOfDollar + " moeda(s) de R$ 0.10");
 console.log(fiveCentsOfDollar + " moeda(s) de R$ 0.05");
 console.log(aDoallarCent + " moeda(s) de R$ 0.01");
+*/
+
+//1035
+
+let numerosInteiros = input.split(" ");
+
+let a = parseInt(numerosInteiros.shift());
+
+let b = parseInt(numerosInteiros.shift());
+
+let c = parseInt(numerosInteiros.shift());
+
+let d = parseInt(numerosInteiros.shift());
+
+
+if(b > c && d > a && (c + d )> (a + b) && c > -1 && d > -1 && a % 2===0){
+  return console.log('Valores aceitos')
+}
+
+ return console.log('Valores nao aceitos');
